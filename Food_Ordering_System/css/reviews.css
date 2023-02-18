@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', serif;
+    display: flex;
+    box-sizing: border-box;
+    background-image: url('../pizza.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    width: 30%;
+    top: 0;
+    right: 35px;
+    margin: 0;
+    backdrop-filter: blur(8px);
+}
+
+.sidebar .logo{
+    padding: 20px;
+    font-size: 30px;
+    
+    margin: 0 45px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sidebar .logo a{
+    text-decoration: none;
+    color: #573c25;
+}
+
+.sidebar h3{
+    text-align: center;
+    color: #573c25;
+    padding: 20px;
+}
+
+.sidebar #form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* .sidebar #form input{
+    position: absolute;
+} */
+.in-name{
+    margin: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom:1px solid rgb(201, 200, 200);
+    font-family: monospace;
+}
+
+.in-name:focus{
+    outline: none;
+}
+
+.in-review{
+    width: 70%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    
+    outline: none;
+}
+
+#form button {
+    border: none;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Poppins' sans-serif;
+    background-color: #573c25;
+    color: white;
+    border-radius: 3%;
+}
+
+#form button:disabled {
+    border: none;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Poppins' sans-serif;
+    border-radius: 3%;
+}
+
+.main{
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 2px gray;
+    width: 60%;
+    margin: 35px;
+    padding: 20px;
+    height:85vh;
+}
+
+
+.reviews{
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: auto;
+    height: 90%;
+    top: 30px;
+}
+
+.box{
+    width: 80%;
+    padding: 20px;
+    /* height: 40px; */
+    box-shadow: 0 0 2px rgb(83, 70, 70);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.box .account{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.account .avatar{
+    width: 35px;
+    background-color: grey;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.account .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: none;
+    margin: none;
+}
+
+.info p{
+    color: grey;
+}
+
+.box .stars .star{
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.review{
+    
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.order{
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+}

@@ -1,0 +1,286 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #8d745a;
+    text-decoration: none;
+}
+a:hover{
+    color: #573c25;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+
+
+h2{
+    color:  #573c25;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/food.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: #8d745a;
+    color: white;
+    cursor: pointer;
+    padding: 2%;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color:  #573c25;
+}
+
+.btn-btn{
+    padding: 1%;
+}
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* section .food-menu div:nth-child(1) {
+    padding-top: 0;
+} */
+
+.food-menu {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-menu .section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 20px;
+    box-shadow: 0 0 0.5em #fae4e4;
+    border-radius: 5px;
+    margin: 1em;
+    top: 139px;
+    width: 80%;
+}
+
+.food-menu h2 {
+    /* padding-left: 20px; */
+    margin: 3%;
+}
+
+.food-menu .contain{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-menu .contain .card {
+    border: solid 1px rgb(199, 198, 198);
+    border-radius: 5px;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    margin: 10px;
+    height: 23vh;
+}
+
+.food-menu .contain .card .txt {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.food-menu .contain .card .txt div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.food-menu .contain .card .txt div h1 {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.food-menu .card .txt button {
+    background-color: rgba(180, 180, 180, 0.384);
+    padding: 7px;
+    border-radius: 4px;
+    line-height: 90%;
+    color: grey;
+    margin-top: 4px;
+    box-shadow: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.food-menu .card .txt button:hover {
+    cursor: pointer;
+}
+
+.food-menu .card .price {
+    padding-right: 20px;
+    position: sticky;
+}
+
+.food-menu .card img {
+    width: 17vh;
+    height: 17vh;
+    object-fit: cover;
+}
+
+
+/* footer styling */
+.footer {
+    height: 20vh;
+    padding: 2px 10px;
+   
+}
+
+.footer p {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    color: white;
+    text-align: center;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #573c25;
+    /* font-size: 20px; */
+}
+
+.footer .logo{
+    color: #573c25;
+    font-size: 30px;
+}
+
+.footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+.footer div ul{
+    display: flex;
+    width: 30vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer div ul{
+    list-style: none;
+}
+
+.footer .container2{
+    margin-left:30px;
+    margin-right:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
